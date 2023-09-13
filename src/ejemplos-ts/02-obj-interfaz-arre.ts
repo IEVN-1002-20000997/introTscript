@@ -15,3 +15,14 @@ const alumno:Alumno={
 
 
 console.log(alumno.nombre);
+console.log(alumno);
+
+let mascotas=['perro','gato','perico']
+
+mascotas[1]='perico verde';
+mascotas.push('gato dos');
+console.table(mascotas);
+
+let tem:(string|number)[]=[]
+tem.push('RCR');
+tem.push(34);
